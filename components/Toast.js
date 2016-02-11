@@ -27,10 +27,10 @@ var MyComponent = React.createClass({
   }
 });
 
-ReactDOM.render(
+/*ReactDOM.render(
   React.createElement(MyComponent),
   document.getElementById('toast')
-);
+);*/
 
 
 module.exports = MyComponent;

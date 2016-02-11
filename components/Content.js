@@ -14,7 +14,6 @@ var Content = React.createClass({
         <Search />
         <Carousel />
         <ProductListing />
-        <Toast />
         <BrowseLocation />
       </div>
     )

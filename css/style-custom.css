@@ -15,10 +15,10 @@
   padding-top: 5px;
 }
 #footer{
-  background: rgb(241, 241, 241);
+  /*background: rgb(241, 241, 241);
   border-top: 1px solid rgb(222, 222, 222);
   margin-top: -2px;
-  padding-top: 30px;
+  padding-top: 30px;*/
   padding-bottom: 30px;
  }
 .foot-header{
@@ -89,6 +89,9 @@
     .container .row {
       display: none;
     }
+    .github-fork-ribbon-wrapper {
+      display: none;
+    }
   }
 
 @media (min-width: 1000px) {
@@ -97,7 +100,10 @@
   }
 }
 
-/*body { margin-top: 45px; }*/
+.carty { display: none; }
 
 #Header { margin-bottom: 50px; }
 
+#carousel { margin-bottom: 40px; }
+
+.griddle-footer { margin-bottom: 40px; }

@@ -11,7 +11,7 @@ const CarouselExp = React.createClass({
   mixins: [Carousel.ControllerMixin],
   render() {
     return (
-    	<div style={{width: '50%', margin: 'auto'}}>
+    	<div style={{width: '70%', margin: 'auto'}}>
  			<Carousel dragging={true}>
         		<img src={baseUrl + '/img/appeti_home0.jpg'}/>
         		<img src={baseUrl + '/img/appeti_home1.jpg'}/>
