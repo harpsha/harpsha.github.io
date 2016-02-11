@@ -20670,7 +20670,7 @@
 	                        position: 'fixed',
 	                        bottom: 0,
 	                        right: 0,
-	                        width: '27%',
+	                        width: '21.5%',
 	                        maxHeight: '80%',
 	                        borderTop: '1px solid #eee',
 	                        paddingTop: '1em',
@@ -20686,9 +20686,15 @@
 	                        null,
 	                        _react2.default.createElement(
 	                            _reactBootstrap.Col,
-	                            { md: 1 },
+	                            { md: 3 },
 	                            _react2.default.createElement(_CartDropTarget2.default, { onItemDropped: this.itemDropped })
 	                        ),
+	                        _react2.default.createElement('br', null),
+	                        _react2.default.createElement('br', null),
+	                        _react2.default.createElement('br', null),
+	                        _react2.default.createElement('br', null),
+	                        _react2.default.createElement('br', null),
+	                        _react2.default.createElement('br', null),
 	                        _react2.default.createElement('br', null),
 	                        _react2.default.createElement(
 	                            _reactBootstrap.Col,
@@ -48865,7 +48871,7 @@
 	            _react2.default.createElement(
 	                'p',
 	                null,
-	                'Drag items here to add to cart.'
+	                'Drag items here.'
 	            )
 	        ));
 	    }

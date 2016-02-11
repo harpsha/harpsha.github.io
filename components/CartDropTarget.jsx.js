@@ -40,7 +40,7 @@ const CartDropTarget = React.createClass({
                     <h1><i className='fa fa-shopping-bag fa-4x' /></h1>
                 </Well>
                 <p>
-                    Drag items here to add to cart.
+                    Drag items here.
                 </p>
             </div>
         )

@@ -232,7 +232,7 @@ const DragDropComponent = React.createClass({
                     position      : 'fixed',
                     bottom        : 0,
                     right         : 0,
-                    width         : '27%',
+                    width         : '21.5%',
                     maxHeight     : '80%',
                     borderTop     : '1px solid #eee',
                     paddingTop    : '1em',
@@ -242,9 +242,9 @@ const DragDropComponent = React.createClass({
                 }}>
                     <Grid>
                         <Row>
-                            <Col md={1}>
+                            <Col md={3}>
                                 <CartDropTarget onItemDropped = {this.itemDropped} />
-                            </Col><br />
+                            </Col><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
                             <Col md={3}>
                                 <div>
                                     <Cart 
