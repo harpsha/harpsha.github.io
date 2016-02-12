@@ -9,7 +9,6 @@ var BrowseLocation = React.createClass({
   render: function () {
     return (
     	<div dangerouslySetInnerHTML={{ __html: svgTagg }}></div>
-		
     )
   }
 });
