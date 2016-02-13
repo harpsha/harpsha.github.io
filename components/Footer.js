@@ -72,7 +72,7 @@ var Footer = React.createClass({
       <div className="foot-header">
         Download App <img width="20px" src=".//img/android.png"></img>
       </div>
-      <img width="150px" src="http://www.vernier.com/images/masters/logo._android._google._play._store._app._internal.001.png"></img>
+      <img width="150px" src="../img/android-playstore.png"></img>
     </div>
     
   	</div>

@@ -13,6 +13,12 @@ const CarouselExp = React.createClass({
         <div className="sp-slides">
           <div className="sp-slide">
             <img className="sp-image" src="img/blank.gif"
+              data-src="img/appeti_homex.jpg"
+              data-retina="img/appeti_homex.jpg"/>
+          </div>
+
+          <div className="sp-slide">
+            <img className="sp-image" src="img/blank.gif"
               data-src="img/appeti_home0.jpg"
               data-retina="img/appeti_home0.jpg"/>
           </div>
@@ -43,6 +49,11 @@ const CarouselExp = React.createClass({
         </div>
 
         <div className="sp-thumbnails">
+          <div className="sp-thumbnail">
+            <div className="sp-thumbnail-title">It's Valentine's Day!</div>
+            <div className="sp-thumbnail-description">Flat 20% Off!</div>
+          </div>
+
           <div className="sp-thumbnail">
             <div className="sp-thumbnail-title">Appeti!</div>
             <div className="sp-thumbnail-description">How it works</div>
