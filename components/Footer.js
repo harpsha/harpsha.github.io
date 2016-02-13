@@ -10,7 +10,7 @@ var Footer = React.createClass({
     
       <div className="col-sm-2">
         <div className="foot-header">
-          Flavours <img src="http://200.27.156.170/ean_default/img/cocha/icon-cocha.png"></img>
+          Flavours <img src="../img/footer/icon-cocha.png"></img>
         </div>
         <div className="foot-links">
           <a href="http://appeti.in/shop/category/90901/sweets">Sweets</a>
@@ -25,7 +25,7 @@ var Footer = React.createClass({
       </div>
     <div className="col-sm-3">
         <div className="foot-header">
-          Terms & Policies <img src="http://200.27.156.170/ean_default/img/cocha/servicio-al-cliente-icon.png"></img>
+          Terms & Policies <img src="../img/footer/servicio-al-cliente-icon.png"></img>
         </div>
         <div className="foot-links">
           <a href="http://appeti.in/terms-of-service">Terms of Service</a>
@@ -36,34 +36,34 @@ var Footer = React.createClass({
       </div>
     <div className="col-sm-2">
       <div className="foot-header">
-        Payment Options<img src="http://200.27.156.170/ean_default/img/cocha/card-icon.png"></img>
+        Payment Options<img src="../img/footer/card-icon.png"></img>
       </div>
       <div className="foot-links">
         <p>
           <i className="fa fa-check text-success"></i> PayUmoney<br></br>
-          <img src="http://200.27.156.170/ean_default/img/cocha/visa-card.png"></img>
-          <img src="http://200.27.156.170/ean_default/img/cocha/master-card.png"></img>
+          <img src="../img/footer/visa-card.png"></img>
+          <img src="../img/footer/master-card.png"></img>
         </p>
         <p>
           <i className="fa fa-check text-success"></i> CC Avenue<br></br>
-          <img src="http://200.27.156.170/ean_default/img/cocha/banco-santander-card-1.png"></img>
-          <img src="http://200.27.156.170/ean_default/img/cocha/banco-de-chile-card-1.png"></img>
+          <img src="../img/footer/banco-santander-card-1.png"></img>
+          <img src="../img/footer/banco-de-chile-card-1.png"></img>
         </p>
       </div>
     </div>
         <div className="col-sm-2">
       <div className="foot-header">
-        Delivery Partners<img src="http://200.27.156.170/ean_default/img/cocha/card-icon.png"></img>
+        Delivery Partners<img src="../img/footer/card-icon.png"></img>
       </div>
       <div className="foot-links">
         <p>
           <i className="fa fa-check text-success"></i> Fedex<br></br>
-          <img src="http://200.27.156.170/ean_default/img/cocha/banco-santander-card-1.png"></img>
-          <img src="http://200.27.156.170/ean_default/img/cocha/banco-de-chile-card-1.png"></img>
+          <img src="../img/footer/banco-santander-card-1.png"></img>
+          <img src="../img/footer/banco-de-chile-card-1.png"></img>
         </p>
         <p>
           <i className="fa fa-check text-success"></i> Bluedart<br></br>
-          <img src="http://200.27.156.170/ean_default/img/cocha/ripley-card.png"></img>
+          <img src="../img/footer/ripley-card.png"></img>
         </p>
       </div>
     </div>
@@ -77,7 +77,7 @@ var Footer = React.createClass({
     
   	</div>
   <div className="row">
-    <center><img src="http://200.27.156.170/ean_default/img/cocha/footer-bg.png"></img></center>
+    <center><img src="../img/footer/footer-bg.png"></img></center>
     <div id="bottom-footer">
       <div className="row">
         <div className="col-md-8">
@@ -90,7 +90,7 @@ var Footer = React.createClass({
         <a href="http://appeti.in/testimonials">Testimonials</a>
         </div>
         <div className="col-md-4 phone">
-          <img src="http://200.27.156.170/ean_default/img/cocha/phone-icon.png" className="pull-left"></img>
+          <img src="../img/footer/phone-icon.png" className="pull-left"></img>
           <div className="pull-left">
             <span className="red">022-26500935/8<small>Call Us Anytime</small></span>
           </div>
@@ -102,7 +102,7 @@ var Footer = React.createClass({
   </div>
       <div className="row" id="final-footer">
         <div className="col-sm-4">
-          <img src="http://200.27.156.170/ean_default/img/cocha/RapidSSL_SEAL-90x50.gif"></img>
+          <img src="../img/footer/RapidSSL_SEAL-90x50.gif"></img>
         </div>
         <div className="col-sm-4 text-center">
         	Copyright © 2016 Appeti. All Rights Reserved.<br></br>
