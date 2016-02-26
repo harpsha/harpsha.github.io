@@ -1,7 +1,7 @@
 import json, requests
 
 #r = requests.post('http://localhost:8080/main/shopService?high_limit=200')
-r = requests.post('http://appeti.in/shopService?high_limit=100')
+r = requests.post('http://appeti.in/shopService?high_limit=110')
 data =  r.json()
 
 def convert(val):
