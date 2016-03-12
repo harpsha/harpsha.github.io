@@ -1,0 +1,301 @@
+/*** uncss> filename: http://harpsha.github.io/shoppie/styles.css ***/
+
+/*** uncss> filename: http://harpsha.github.io/shoppie/styles.css ***/
+
+/*** uncss> filename: http://harpsha.github.io/shoppie/css/unsemantic.css ***/
+
+html,
+body,
+div,
+span,
+h3,
+a,
+img,
+strong,
+i,
+section {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+@media screen and (max-width: 400px) {
+  @-ms-viewport {
+    width: 320px;
+  }
+}
+
+@media screen {
+  .clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  body {
+    min-width: 320px;
+  }
+}
+
+/*** uncss> filename: http://harpsha.github.io/shoppie/css/responsive.css ***/
+
+@media screen and (max-width: 979px) {
+  .transition-all {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+  }
+}
+
+/*** uncss> filename: http://harpsha.github.io/shoppie/css/colors.css ***/
+
+.dark-color {
+  color: #3e3e3e;
+}
+
+.dark-gradient-hover:hover {
+  background-image: linear-gradient(bottom, #0f0f0f 0%, #3e3e3e 100%);
+  background-image: -o-linear-gradient(bottom, #0f0f0f 0%, #3e3e3e 100%);
+  background-image: -moz-linear-gradient(bottom, #0f0f0f 0%, #3e3e3e 100%);
+  background-image: -webkit-linear-gradient(bottom, #0f0f0f 0%, #3e3e3e 100%);
+  background-image: -ms-linear-gradient(bottom, #0f0f0f 0%, #3e3e3e 100%);
+  background-color: #3e3e3e;
+}
+
+.middle-color {
+  color: #999999;
+}
+
+.middle-gradient {
+  background-image: linear-gradient(bottom, #7b7770 0%, #999999 100%);
+  background-image: -o-linear-gradient(bottom, #7b7770 0%, #999999 100%);
+  background-image: -moz-linear-gradient(bottom, #7b7770 0%, #999999 100%);
+  background-image: -webkit-linear-gradient(bottom, #7b7770 0%, #999999 100%);
+  background-image: -ms-linear-gradient(bottom, #7b7770 0%, #999999 100%);
+  background-color: #999999;
+}
+
+.light-color {
+  color: #ffffff;
+}
+
+.light-bg {
+  background-color: #ffffff;
+}
+
+.active-color,
+.active-hover:hover {
+  color: #ee3124;
+}
+
+/*** uncss> filename: http://harpsha.github.io/shoppie/css/base.css ***/
+
+html,
+body {
+  font-size: 14px;
+  line-height: 1.2em;
+}
+
+strong {
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+span {
+  line-height: 1.2em;
+}
+
+.transition-all {
+  transition: all 300ms;
+  -moz-transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -o-transition: all 300ms;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+.button-dual {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.button-dual .button-dual-left {
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  padding: 9px 45px 9px 15px;
+  display: block;
+  margin: 0;
+  margin-right: 30px;
+  color: inherit;
+  z-index: 2;
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+.button-dual .button-dual-left i {
+  font-weight: 400;
+  position: absolute;
+  text-align: center;
+  padding-top: 10px;
+  height: 100%;
+  width: 50px;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+}
+
+.product-box {
+  margin-bottom: 20px;
+  height: 300px;
+  position: relative;
+  border-right: 1px solid #d8d6d4;
+  border-bottom: 1px solid #d8d6d4;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 1px 1px 1px #E7E5E3;
+  -webkit-box-shadow: 1px 1px 1px #E7E5E3;
+  box-shadow: 1px 1px 1px #E7E5E3;
+}
+
+.product-box .product-img {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 185px;
+  text-align: center;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.product-box .product-img span {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.product-box .product-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.product-box .product-info {
+  border-top: 1px solid #d8d6d4;
+  border-top: 1px solid rgba(88, 88, 88, 0.2);
+  position: absolute;
+  padding: 15px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.product-info .product-title {
+  font-size: 18px;
+  text-transform: none;
+  margin-bottom: auto;
+}
+
+.product-bottom {
+  background-color: inherit;
+}
+
+.product-bottom .product-stars {
+  float: left;
+  padding: 12px 0;
+}
+
+.product-bottom .product-price {
+  float: right;
+  position: relative;
+  font-size: 20px;
+  cursor: default;
+  background-color: inherit;
+}
+
+.product-bottom .product-price strong {
+  position: relative;
+  display: inline-block;
+  padding: 10px 0 10px 5px;
+  background-color: inherit;
+  /* smooth css3 animations on mobile */
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  transition: box-shadow 300ms;
+  -moz-transition: box-shadow 300ms;
+  -webkit-transition: box-shadow 300ms;
+  -o-transition: box-shadow 300ms;
+}
+
+.product-bottom .product-price:hover strong {
+  -moz-box-shadow: -5px 0 4px -5px #737373;
+  -webkit-box-shadow: -5px 0 4px -5px #737373;
+  box-shadow: -5px 0 4px -5px #737373;
+}
+
+.product-bottom .button-dual {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  opacity: 0;
+}
+
+.product-bottom .button-dual .button-dual-left {
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.product-box:hover .product-bottom .button-dual {
+  height: 35px;
+  overflow: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  opacity: 1;
+}
+
