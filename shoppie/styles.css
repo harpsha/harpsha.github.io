@@ -1,3 +1,5 @@
+/*** uncss> filename: http://harpsha.github.io/shoppie/styles.css ***/
+
 /*** uncss> filename: http://harpsha.github.io/shoppie/css/unsemantic.css ***/
 
 html,
@@ -6,7 +8,6 @@ div,
 span,
 h3,
 a,
-del,
 img,
 strong,
 i,
@@ -59,8 +60,7 @@ body {
 
 /*** uncss> filename: http://harpsha.github.io/shoppie/css/colors.css ***/
 
-.dark-color,
-.dark-hover:hover {
+.dark-color {
   color: #3e3e3e;
 }
 
@@ -75,10 +75,6 @@ body {
 
 .middle-color {
   color: #999999;
-}
-
-.middle-border {
-  border-color: #999999;
 }
 
 .middle-gradient {
@@ -98,27 +94,12 @@ body {
   background-color: #ffffff;
 }
 
-.light-gradient {
-  background-image: linear-gradient(bottom, #f0eae3 0%, #fbf9f7 100%);
-  background-image: -o-linear-gradient(bottom, #f0eae3 0%, #fbf9f7 100%);
-  background-image: -moz-linear-gradient(bottom, #f0eae3 0%, #fbf9f7 100%);
-  background-image: -webkit-linear-gradient(bottom, #f0eae3 0%, #fbf9f7 100%);
-  background-image: -ms-linear-gradient(bottom, #f0eae3 0%, #fbf9f7 100%);
-  background-color: #ffffff;
-  position: relative;
-}
-
 .active-color,
 .active-hover:hover {
   color: #ee3124;
 }
 
 /*** uncss> filename: http://harpsha.github.io/shoppie/css/base.css ***/
-
-.subheader-font,
-.subheader-font a {
-  font-family: 'Lato',Arial,sans-serif;
-}
 
 html,
 body {
@@ -193,10 +174,6 @@ a {
   /* Safari */
 }
 
-.voting-stars.stars-small {
-  font-size: 14px;
-}
-
 .product-box {
   margin-bottom: 20px;
   height: 300px;
@@ -256,10 +233,6 @@ a {
   margin-bottom: auto;
 }
 
-.product-info .product-category {
-  font-size: 11px;
-}
-
 .product-bottom {
   background-color: inherit;
 }
@@ -277,24 +250,6 @@ a {
   background-color: inherit;
 }
 
-.product-bottom .product-price del {
-  position: absolute;
-  right: 0;
-  top: 8px;
-  font-size: 12px;
-  padding: 3px 8px;
-  white-space: nowrap;
-  border: 1px solid;
-  border-right-style: none;
-  -moz-border-radius: 5px 0 0 5px;
-  -webkit-border-radius: 5px 0 0 5px;
-  border-radius: 5px 0 0 5px;
-  transition: margin-right 300ms;
-  -moz-transition: margin-right 300ms;
-  -webkit-transition: margin-right 300ms;
-  -o-transition: margin-right 300ms;
-}
-
 .product-bottom .product-price strong {
   position: relative;
   display: inline-block;
@@ -307,10 +262,6 @@ a {
   -moz-transition: box-shadow 300ms;
   -webkit-transition: box-shadow 300ms;
   -o-transition: box-shadow 300ms;
-}
-
-.product-bottom .product-price:hover del {
-  margin-right: 100%;
 }
 
 .product-bottom .product-price:hover strong {
@@ -345,3 +296,4 @@ a {
   -moz-opacity: 1;
   opacity: 1;
 }
+
