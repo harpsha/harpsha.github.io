@@ -1567,7 +1567,7 @@ a.choice.b:hover {
   background-position: -101px -100px;
 }
 
-@keyframes "button_pulse" {
+@keyframes button_pulse {
   0% {
     transform: scale(1) rotate(0.1deg);
     -moz-transform: scale(1) rotate(0.1deg);
